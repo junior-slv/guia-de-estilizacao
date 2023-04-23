@@ -1,8 +1,9 @@
 import React from "react";
+import Container from "../components/Container";
 
 const Index = () => {
   return (
-    <div className="container-2xl h-screen flex justify-center">
+    <Container>
       <div className="text-light-purple w-screen justify-around items-center md:max-2xl:flex md:max-md:block">
         <div className="flex flex-col justify-center items-center ">
           <h1 className="text-2xl font-bold">
@@ -24,7 +25,7 @@ const Index = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };
 

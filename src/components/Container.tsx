@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { ReactNode } from 'react';
 
-const Container = () => {
+type ContainerProps = {
+  children: ReactNode;
+  className?: string;
+  id?: string;
+};
+
+const Container = ({ children, className, id }: ContainerProps) => {
   return (
-    <div>Container</div>
-  )
-}
+    <div id={`${id}`} className={`container-2xl h-screen flex justify-center ${className}`} >
+      {children}
+    </div>
+  );
+};
 
-export default Container
+export default Container;

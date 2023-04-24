@@ -1,16 +1,17 @@
 import React from "react";
 import Form from "./pages/Form";
 import Index from "./pages/Index";
-import Paleta from "./pages/Paleta";
+import Cores from "./pages/Cores";
 import Tipografia from "./pages/Tipografia";
+import Logo from "./pages/Logo";
 
 const App = () => {
   return (
     <main className="flex flex-col">
       <Index/>
-      <Form/>
-      <Paleta/>
       <Tipografia/>
+      <Cores/>
+      <Logo/>
     </main>
   );
 };

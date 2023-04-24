@@ -12,7 +12,13 @@ export default {
       'dark-black': '#252525',
       'ice-white': '#FFFAFA',
     },
-    extend: {},
+    extend:
+    {
+      fontFamily: {
+        'lato': ['Lato', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif']
+      },
+    },
   },
 
   plugins: [],

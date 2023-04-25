@@ -8,25 +8,41 @@ const Tipografia = () => {
         <div className="text-bold font-lato text-6xl text-light-purple col-span-3 flex items-center justify-center">
           <h1>Tipografia</h1>
         </div>
-        <div className="font-roboto text-2xl text-ice-white m-5">
-          <h2>
-            Para títulos:
-            <br />
-            <a href="https://fonts.google.com/specimen/Lato">Lato</a> - Bold ou
-            Regular
-          </h2>
-          <h2>
-            Para demais textos:
-            <br />
-            <a href="https://fonts.google.com/specimen/Roboto">Roboto</a> -
-            Regular
-          </h2>
+        <div className="flex flex-col items-center justify-center font-roboto text-2xl text-ice-white m-7 text-center">
+          <div>
+            <h2 className="font-lato font-bold">Para títulos:</h2>
+            <p className="font-roboto text-lg">
+              {" "}
+              <a
+                className="text-light-purple underline font-roboto font-normal"
+                target="_blank"
+                href="https://fonts.google.com/specimen/Lato"
+              >
+                Lato
+              </a>
+              - Bold ou Regular
+            </p>
+          </div>
+          <div>
+            <h2 className="font-lato font-bold">Para demais textos:</h2>
+            <p className="font-roboto text-lg">
+              {" "}
+              <a
+                className="text-light-purple underline font-roboto font-normal"
+                target="_blank"
+                href="https://fonts.google.com/specimen/Roboto"
+              >
+                Roboto
+              </a>
+              - Regular
+            </p>
+          </div>
         </div>
-        <div className="font-roboto text-2xl text-ice-white m-5"> 
+        <div className="font-roboto text-lg text-ice-white m-5">
           <p>
             Padronize sua identidade visual utilizando Lato bold ou regular para
             títulos e Roboto regular para demais textos em seu guia de estilo.
-            Transmita uma imagem profissional e coerente para sua marca.
+            Transmita uma imagem profissional e coerente.
           </p>
         </div>
       </div>

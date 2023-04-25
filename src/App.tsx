@@ -4,6 +4,7 @@ import Index from "./pages/Index";
 import Cores from "./pages/Cores";
 import Tipografia from "./pages/Tipografia";
 import Logo from "./pages/Logo";
+import ScrollButton from "./components/ScrollButton";
 
 const App = () => {
   return (
@@ -12,7 +13,9 @@ const App = () => {
       <Tipografia/>
       <Cores/>
       <Logo/>
+      <ScrollButton/>
     </main>
+
   );
 };
 

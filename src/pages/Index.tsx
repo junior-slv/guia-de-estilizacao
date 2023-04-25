@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../components/Container";
+import logoWhite from "../assets/logo-white.png";
 
 const Index = () => {
   return (
@@ -7,20 +8,22 @@ const Index = () => {
       <div className="justify-around w-screen grid grid-rows-2 items-center sm:grid-rows-2 font-roboto ">
         <div className="text-light-purple flex flex-col justify-center items-center font-lato">
           <h1 className="text-8xl font-bold">&lt; Guia de estilização /&gt;</h1>
-          <h2 className="flex text-5xl">Projetos do NPI</h2>
+          <h2 className="flex text-4xl">Projetos do NPI</h2>
         </div>
-        <div className="flex items-center justify-center font-lato">
+        
+        <div className="flex flex-col items-center justify-center font-lato">
+        <span><img src={logoWhite} alt="" /></span>
           <ul className="flex text-light-purple space-x-7 text-2xl">
-            <li className="hover:text-ice-white">
+            <li className="hover:border-b-4 ease-in-out duration-300 hover:text-ice-white">
               <a href="#tipografia">Tipografia</a>
             </li>
-            <li className="hover:text-ice-white">
+            <li className="hover:border-b-4 ease-in-out duration-300 hover:text-ice-white">
               <a href="#cores">Cores</a>
             </li>
-            <li className="hover:text-ice-white">
+            <li className="hover:border-b-4 ease-in-out duration-300 hover:text-ice-white">
               <a href="#logo">Logo</a>
             </li>
-            <li className="hover:text-ice-white">
+            <li className="hover:border-b-4 ease-in-out duration-300 hover:text-ice-white">
               <a href="#exemplos">Exemplos</a>
             </li>
           </ul>

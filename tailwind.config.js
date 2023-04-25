@@ -8,7 +8,7 @@ export default {
   theme: {
     colors: {
       'light-purple': '#924FD2',
-      'dark-purple': '#5E2EB1',
+      'dark-purple': '#7c3aed',
       'dark-black': '#252525',
       'ice-white': '#FFFAFA',
     },
@@ -18,6 +18,9 @@ export default {
         'lato': ['Lato', 'sans-serif'],
         'roboto': ['Roboto', 'sans-serif']
       },
+      backgroundImage: {
+        'purple-room': 'url(src/assets/bg.jpg)'
+      }
     },
   },
 

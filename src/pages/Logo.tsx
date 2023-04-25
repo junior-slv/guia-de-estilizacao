@@ -10,16 +10,17 @@ import manual from '../assets/manual.pdf'
 const Logo = () => {
   return (
     <Container id="logo">
-      <div className="grid m-10">
-        <div className="text-bold font-lato text-6xl text-light-purple col-span-3 flex items-center justify-center">
+      <div className="grid grid-rows-2 grid-cols-2 items-center justify-center ">
+      <div className="text-bold font-lato text-6xl text-light-purple col-span-3 flex items-center justify-center ">
           <h1>Logo</h1>
         </div>
-        <div>
+        <div className=" m-20">
           <img src={logoW} alt="" />
           <img src={logo} alt="" />
           <img src={logoWhite} alt="" />
         </div>
-        <div className="font-roboto text-2xl text-ice-white m-32 flex flex-col items-center">
+        <div className="font-roboto text-lg text-ice-white m-5">
+          
           <p>
             Para garantir uma identidade visual coesa e consistente em nosso
             projeto, gostaríamos de informar as logos que devem ser utilizadas.
@@ -29,8 +30,7 @@ const Logo = () => {
             as cores, fontes, proporções e outras características que devem ser
             respeitadas para garantir a consistência da marca.
           </p>
-          <div className="space-x-7">
-            <Button>Baixar</Button>
+          <div>
             <Button><a href={manual} target="_blank">Manual</a></Button>
           </div>
         </div>

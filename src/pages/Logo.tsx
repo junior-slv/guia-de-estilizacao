@@ -14,12 +14,12 @@ const Logo = () => {
       <div className="text-bold font-lato text-6xl text-light-purple col-span-3 flex items-center justify-center ">
           <h1>Logo</h1>
         </div>
-        <div className=" m-20">
+        <div className="md:m-20">
           <img src={logoW} alt="" />
           <img src={logo} alt="" />
           <img src={logoWhite} alt="" />
         </div>
-        <div className="font-roboto text-lg text-ice-white m-5">
+        <div className="font-roboto text-lg text-ice-white m-5 break-words">
           
           <p>
             Para garantir uma identidade visual coesa e consistente em nosso

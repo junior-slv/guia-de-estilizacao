@@ -15,9 +15,9 @@ const Logo = () => {
           <h1>Logo</h1>
         </div>
         <div className="md:m-20">
-          <img src={logoW} alt="" />
-          <img src={logo} alt="" />
-          <img src={logoWhite} alt="" />
+          <a href={logoW} target="_blank"><img src={logoW} alt="" /></a>
+          <a href={logo}><img src={logo} alt="" /></a>
+          <a href={logoWhite}><img src={logoWhite} alt="" /></a>
         </div>
         <div className="font-roboto text-lg text-ice-white m-5 break-words">
           

@@ -17,7 +17,7 @@ const Index = () => {
           <span>
             <img src={logoWhite} alt="" />
           </span>
-          <ul className="flex text-ice-white space-x-7 text-2xl">
+          <ul className="flex md:flex-row flex-col text-ice-white space-x-7 text-2xl ">
             <li className="hover:border-b-4 ease-in-out duration-300 hover:text-ice-white">
               <a href="#tipografia">Tipografia</a>
             </li>

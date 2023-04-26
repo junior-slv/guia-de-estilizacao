@@ -19,7 +19,7 @@ export default {
         'roboto': ['Roboto', 'sans-serif']
       },
       backgroundImage: {
-        'purple-room': 'url(src/assets/bg.jpg)'
+        'purple-room': "url('/src/assets/bg.jpg')",
       }
     },
   },
